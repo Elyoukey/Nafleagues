@@ -1,0 +1,169 @@
+#map_canvas img { max-width: none; }
+#nafleague_lookupfield
+{
+	width: 400px;
+}
+
+#nafleagues_list
+{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+}
+section.nafleague article.nafleague
+{
+	width: auto;
+	margin: 9px 0;
+	border-bottom: 1px solid black;
+	display: inline-block;
+	background: ivory;
+	
+
+	font-size: 14px;
+}
+article.nafleague .content
+{
+	padding: 7px;margin-top:2px;
+border-top: 1px solid black;
+}
+
+article.nafleague .name
+{
+	margin: 0;
+	padding: 0 10px;
+	border-bottom:3px solid black;
+	background: #9F0000;
+	color: white;
+
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+article.nafleague .name:first-letter {
+    text-transform: uppercase;
+}
+article.nafleague .logo,
+#map_canvas img.logo
+{
+	max-width: 150px;
+	border:1px solid #c1c0c1;
+	margin: 3px 0px 3px 3px;
+	float: right;
+}
+article.nafleague .description
+{
+	
+}
+article.nafleague .email
+{
+	clear: both;
+	white-space: nowrap;
+}
+
+article.nafleague .lat,
+article.nafleague .lng
+{
+	display: none;
+}
+
+article.nafleague .sendlink
+{
+	margin: 0;
+	padding: 0;
+
+	width: 160px;
+	height: 20px;
+	font-size: 11px;
+	border: none;
+	background: silver;
+}
+
+article.nafleague .notice
+{
+	color: silver;
+	font-size: 11px;
+	margin: 0;
+}
+
+article.nafleague .lastupdate
+{
+	color: silver;
+	font-size: 11px;
+	margin: 0;
+}
+
+#nafmap article.nafleague .description
+{
+	display: none;
+}
+
+#nafleague_messages .error,
+#nafleague_messages .warning,
+#nafleague_messages .success
+{
+	padding: 5px;
+	display: block;
+}
+
+#nafleague_messages .error
+{
+	padding: 5px;
+	border: 1px solid red;
+	color: red;
+}
+
+#nafleague_messages .warning
+{
+	padding: 5px;
+	border: 1px solid orange;
+	color: orange;
+}
+
+#nafleague_messages .success
+{
+	padding: 5px;
+	border: 1px solid green;
+	color: green;
+}
+
+
+#nafleague_form 
+{
+	border: 1px solid silver;
+	background: #c3c3c3;
+	padding: 10px;
+}
+
+#nafleague_form h2
+{
+	color: #9F0000;
+	border-bottom: 1px solid #9F0000;
+	margin: 5px 0 ;
+	padding:0;
+}
+
+#nafleague_form label
+{
+	display: inline-block;
+	width: 100px;
+	font-size: 12px;
+}
+#nafleague_form textarea
+{
+	width: 300px;
+	height: 100px;
+}
+
+#nafleague_form #nafleague_send_button
+{
+	background: #9F0000;
+	color: white;
+	font-weight: bold;
+	margin:0;
+	padding: 5px;
+	border: none;
+}
